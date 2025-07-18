@@ -32,6 +32,6 @@ jobs:
           key: ${{ secrets.SERVER_SSH_KEY }}
           script: |
             cd ~/apps/demo-node
-            git pull origin main
+            git pull origin master
             npm install --production
             pm2 restart vinayak-app || pm2 start index.js --name "vinayak-app"

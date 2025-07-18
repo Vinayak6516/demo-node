@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Vinayak6516/demo-node#readme",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "hot-shots": "^11.1.0"
   }
 }
